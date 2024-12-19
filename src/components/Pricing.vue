@@ -1,5 +1,5 @@
 <template>
-    <div class="w-[96%] grid grid-cols-2 mx-auto">
+    <div class="mt-24 w-[96%] grid grid-cols-2 mx-auto">
         <!-- Sticky H2 in the first column -->
          <div class="mb-4 col-span-2 lg:col-span-1 text-[33px] font-semibold text-center mx-auto text-black pt-20 max-w-xl">
             <h2 class="sticky top-10">

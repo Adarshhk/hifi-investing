@@ -29,41 +29,47 @@
   
   <script setup>
   import { ref } from 'vue'
+  import img1 from '/src/assets/feature1.svg'
+  import img2 from '/src/assets/feature2.svg'
+  import img3 from '/src/assets/feature3.svg'
+  import img4 from '/src/assets/feature4.svg'
+  import img5 from '/src/assets/feature5.svg'
+  import img6 from '/src/assets/feature6.svg'
   
   const features = [
     {
       id: 1,
-      icon: '/src/assets/feature1.svg',
+      icon: img1,
       title: 'Advanced Algorithmic Trading',
       description: 'Execute trades with precision and speed using cutting-edge algorithms optimized for various market conditions'
     },
     {
       id: 2,
-      icon: '/src/assets/feature2.svg',
+      icon: img2,
       title: 'Customizable Strategies',
       description: 'Design and implement trading strategies tailored to your goals, risk tolerance, and preferred assets.'
     },
     {
       id: 3,
-      icon: '/src/assets/feature3.svg',
+      icon: img3,
       title: 'Real-Time Data and Insights',
       description: 'Stay informed with live market data, predictive analytics, and actionable alerts for smarter decisions.'
     },
     {
       id: 4,
-      icon: '/src/assets/feature4.svg',
+      icon: img4,
       title: 'Comprehensive Risk Management',
       description: 'Protect your investments with features like automated stop-losses, position sizing, and real-time monitoring.'
     },
     {
       id: 5,
-      icon: '/src/assets/feature5.svg',
+      icon: img5,
       title: 'Backtesting and Optimization',
       description: 'Stay informed with live market data, predictive analytics, and actionable alerts for smarter decisions.'
     },
     {
       id: 6,
-      icon: '/src/assets/feature6.svg',
+      icon: img6,
       title: 'Educational Courses',
       description: 'Protect your investments with features like automated stop-losses, position sizing, and real-time monitoring.'
     }
