@@ -10,21 +10,21 @@
 
             <div>
                 <ul>
-                    <li class="text-white mb-2">Quick Links</li>
-                    <li class="text-[#89A3B2] font-light mb-2">Register Now</li>
-                    <li class="text-[#89A3B2] font-light mb-2">Features</li>
-                    <li class="text-[#89A3B2] font-light mb-2">Services</li>
-                    <li class="text-[#89A3B2] font-light mb-2">Why Us</li>
+                    <li class="text-white mb-2 ">Quick Links</li>
+                    <li class="text-[#89A3B2] font-light mb-2 hover:underline hover:cursor-pointer"><a href="https://app.hifiinvesting.com/" target="_blank">Register Now</a></li>
+                    <li class="text-[#89A3B2] font-light mb-2 hover:underline hover:cursor-pointer"><a href="#features">Features</a></li>
+                    <li class="text-[#89A3B2] font-light mb-2 hover:underline hover:cursor-pointer"><a href="#pricing">Pricing</a></li>
+                    <li class="text-[#89A3B2] font-light mb-2 hover:underline hover:cursor-pointer"><a href="#why">Why Us</a></li>
                 </ul>
             </div>
 
             <div>
                 <ul>
-                    <li class="text-white mb-2">Legal</li>
-                    <li class="text-[#89A3B2] font-light mb-2">Disclaimer</li>
-                    <li class="text-[#89A3B2] font-light mb-2">Non-Discrimination</li>
-                    <li class="text-[#89A3B2] font-light mb-2">HIPAA & Privacy Policy</li>
-                    <li class="text-[#89A3B2] font-light mb-2">Equal Opportunity</li>
+                    <li class="text-white mb-2 ">Legal</li>
+                    <li class="text-[#89A3B2] font-light mb-2 hover:underline hover:cursor-pointer">Disclaimer</li>
+                    <li class="text-[#89A3B2] font-light mb-2 hover:underline hover:cursor-pointer">Non-Discrimination</li>
+                    <li class="text-[#89A3B2] font-light mb-2 hover:underline hover:cursor-pointer">HIPAA & Privacy Policy</li>
+                    <li class="text-[#89A3B2] font-light mb-2 hover:underline hover:cursor-pointer">Equal Opportunity</li>
                 </ul>
             </div>
 
