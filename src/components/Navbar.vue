@@ -8,7 +8,7 @@
         <ul
             class="hidden md:flex border rounded-full gap-2 items-center text-sm font w-full max-w-3xl justify-evenly text-[#787878] border-[#E2E2E2]">
             <li :class="{ 'bg-[#222222] text-white': activeItem == item.name }"
-                class="py-2 lg:px-5 px-3 my-1 rounded-full cursor-pointer transition-all duration-200 hover:bg-[#E2E2E2] "
+                class="py-2 lg:px-5 px-3 my-1 rounded-full cursor-pointer transition-all duration-200 hover:bg-[#E2E2E2] hover:text-[#222222]"
                 @click="changeActiveItem(item.name)" v-for="item in navItems ">{{ item.name }}</li>
         </ul>
 
@@ -19,9 +19,9 @@
                 @click="changeActiveItem(item.name)" v-for="item in navItems ">{{ item.name }}</li>
         </ul>
         <div class="flex items-center">
-            <button class="text-white lg:px-8 px-4 py-2 rounded-full bg-[#222222] ">
+            <a target="_blank" href="https://app.hifiinvesting.com/" class="text-white lg:px-8 px-4 py-2 rounded-full bg-[#222222] ">
                 Login
-            </button>
+            </a>
         </div>
     </nav>
 </template>
