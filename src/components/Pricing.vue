@@ -1,13 +1,16 @@
 <template>
     <div class="w-[96%] grid grid-cols-2 mx-auto">
-
-        <h2 class="mb-4 col-span-2 lg:col-span-1 text-[33px] font-semibold text-center mx-auto text-black pt-20 max-w-xl">
+        <!-- Sticky H2 in the first column -->
+         <div class="mb-4 col-span-2 lg:col-span-1 text-[33px] font-semibold text-center mx-auto text-black pt-20 max-w-xl">
+            <h2 class="sticky top-10">
             <span class="text-[#FDBB3B]">
                 Simple and flexible
             </span>, Only pay for what you use.
         </h2>
+         </div>
+        
 
-        <div class="col-span-2 lg:col-span-1">
+        <div class="col-span-2 lg:col-span-1 ">
 
             <div class="bg-[#2C2C2C] h-[287px]  rounded-md my-4 ">
                 <div class="flex justify-between border-b border-dashed border-[#454545]">
@@ -18,7 +21,7 @@
                         ₹2000.00
                         <span class="text-xs font-extralight">Per Month</span>
                     </h2>
-                    
+
                 </div>
 
 
@@ -54,7 +57,7 @@
                         ₹2000.00
                         <span class="text-xs font-extralight">Per Month</span>
                     </h2>
-                    
+
                 </div>
 
 
@@ -90,7 +93,7 @@
                         ₹2000.00
                         <span class="text-xs font-extralight">Per Month</span>
                     </h2>
-                    
+
                 </div>
 
 

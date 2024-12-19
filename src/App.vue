@@ -1,12 +1,12 @@
 <template >
   <Navbar />
-  <Hero/>
-  <Why/>
-  <Features/>
-  <Media/>
-  <Pricing/>
-  <FAQ/>
-  <Footer/>
+  <Hero id="hero"/>
+  <Why id="why"/>
+  <Features id="features"/>
+  <Media id="media"/>
+  <Pricing id="pricing"/>
+  <FAQ id="faq"/>
+  <Footer id="footer"/>
 </template>
 
 <script setup>

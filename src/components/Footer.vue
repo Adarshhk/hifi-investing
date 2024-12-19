@@ -1,6 +1,6 @@
 <template>
-    <div class="mt-20 mb-2 w-[96%] rounded-md bg-[#222222] mx-auto">
-        <div class="flex lg:flex-row pt-24 p-6 justify-evenly flex-col">
+    <div class="mt-20 mb-2 w-[96%] rounded-xl bg-[#222222] mx-auto py-32 px-12">
+        <div class="flex lg:flex-row justify-between flex-col">
             <div class="max-w-xl">
                 <img src="/src/assets/images/navlogo.png" alt="" class="w-48">
                 <p class="my-6 text-[16px] font-light text-[#89A3B2] ">Keep all your health records in one secure place
@@ -45,7 +45,7 @@
 
 
         </div>
-        <div class="w-full lg:flex justify-between pb-6 items-center px-4 lg:px-32">
+        <div class="w-full lg:flex justify-between items-center px-4">
             <div class="flex gap-3 items-center">
                 <p class="text-white">Backed By</p>
                 <img src="/src/assets/images/xtentionLogo.png" alt="" class="w-32"/>

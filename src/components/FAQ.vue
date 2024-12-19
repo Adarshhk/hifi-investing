@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-3xl mx-auto px-4 py-12">
+    <div class="mx-auto px-4 py-12">
       <div class="text-center mb-12">
         <h2 class="text-3xl font-semibold mb-2 text-[#222222]">
           Frequently asked <span class="text-[#FDBB3B]">question</span>
@@ -10,8 +10,8 @@
         </p>
       </div>
   
-      <div class="space-y-4">
-        <div v-for="(faq, index) in faqs" :key="index" class="bg-[#F6F6F6] rounded-lg border border-[#E2E2E2]">
+      <div class="space-y-4 max-w-4xl mx-auto">
+        <div v-for="(faq, index) in faqs" :key="index" class="bg-[#F6F6F6] rounded-lg border border-[#E2E2E2] w-full">
           <button
             @click="toggleFaq(index)"
             class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-100 transition-colors duration-200 rounded-lg"
